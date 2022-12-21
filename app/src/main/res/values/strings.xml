@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MiniGame</string>
+    <string name="title_activity_settings">PrefsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="music">Play background music</string>
+    <string name="summary_onm">Music will play </string>
+    <string name="summary_offm">Music will not play </string>
+
+    <string name="title">Sound effects</string>
+    <string name="summary_on">Sounds effects will be played </string>
+    <string name="summary_off">Sounds effects will not be played </string>
+
+    <string name="title1">Rapid-fire Cannons</string>
+    <string name="summary_on1">Cannons will fire at each tap </string>
+    <string name="summary_off1">Only one missile at a time </string>
+
+    <string name="title2">Rapid-fire Depth Charges</string>
+    <string name="summary_on2">Depth charges will drop at each tap </string>
+    <string name="summary_off2">Only one depth charge at a time </string>
+
+    <string name="num_sub">How many submarines?</string>
+    <string name="summary_numsub">Number of submarines on-screen at a time </string>
+
+    <string name="num_plane">How many airplanes?</string>
+    <string name="summary_numplane">Number of airplanes on-screen at a time </string>
+
+
+    <string name="title_speed">Object speed</string>
+    <string name="summary_speed">Select the speed of object </string>
+
+    <string name="title_dir">Direction of Object</string>
+    <string name="summary_dir">Select the dir of object </string>
+
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

@@ -1,0 +1,46 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+    <string-array name="speed">
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+    </string-array>
+    <string-array name="dir">
+        <item>LEFT</item>
+        <item>RIGHT</item>
+        <item>BOTH</item>
+    </string-array>
+    <string-array name="num_plane">
+        <item>1</item>
+        <item>2</item>
+        <item>3(default)</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="num_sub">
+        <item>1</item>
+        <item>2</item>
+        <item>3(default)</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+</resources>

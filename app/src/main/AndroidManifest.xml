@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.byuh.cis.cs203.MiniGame">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BWCollisionDetection2022"
+        tools:targetApi="31">
+        <activity
+            android:name="edu.byuh.cis.cs203.MiniGame.ui.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="edu.byuh.cis.cs203.MiniGame.ui.MyPrefsActivity"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="edu.byuh.cis.cs203.MiniGame.ui.MainActivity"
+            android:alwaysRetainTaskState="true"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="edu.byuh.cis.cs203.MiniGame.ui.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiniGame</string>
+    <string name="title_activity_settings">PrefsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="music">배경음악 재생</string>
+    <string name="summary_onm">노래 틀기 </string>
+    <string name="summary_offm">노래 끄기 </string>
+
+    <string name="title">효과음</string>
+    <string name="summary_on">효과음 켜기 </string>
+    <string name="summary_off">효과음 끄기 </string>
+
+    <string name="title1">대포 세팅 </string>
+    <string name="summary_on1">무한 대포 버젼 </string>
+    <string name="summary_off1">한번에 한발 버젼 </string>
+
+    <string name="title2">어뢰 세팅</string>
+    <string name="summary_on2">무한 어뢰 버젼 </string>
+    <string name="summary_off2">한번에 한발 버젼 </string>
+
+    <string name="num_sub">잠수함 세팅</string>
+    <string name="summary_numsub">얼마나 많은 잠수함을 세팅하시겠습니까 </string>
+
+    <string name="num_plane">비행기 세팅</string>
+    <string name="summary_numplane">얼마나 많은 비행기를 세팅하시겠습니까 </string>
+
+
+    <string name="title_speed">타겟 속도</string>
+    <string name="summary_speed">속도를 선택하세요 </string>
+
+    <string name="title_dir">방향 설정</string>
+    <string name="summary_dir">방향을 선택하세요 </string>
+
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
